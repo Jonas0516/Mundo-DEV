@@ -1,0 +1,57 @@
+html{
+    background-color: black;
+}
+body{
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+}
+
+
+#basicomenu {
+    list-style: none;
+    padding:0;
+    background-color: rgb(5, 5, 5);
+}
+
+#basicomenu li {
+    display:inline ;
+}
+
+#basicomenu li a  {
+    
+    color: rgb(249, 249, 250); 
+    padding: 40px  ;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#basicomenu ul li a:hover {
+    background-color: rgb(42, 42, 218);
+
+}
+
+#menugia {
+    list-style: none;
+    padding:0;
+    background-color: rgb(5, 5, 5);
+}
+
+#menuguia ul li {
+    display:block ;
+    background-color: aqua;
+}
+
+#menuguia ul li a  {
+    
+    color: rgb(17, 17, 17); 
+    padding: 20px  ;
+    display: block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#menuguia ul li a:hover {
+    background-color: rgb(223, 223, 238);
+
+}
