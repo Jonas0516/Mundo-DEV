@@ -1,5 +1,8 @@
-html{
-    background-color: rgb(8, 8, 8);
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 body{
     
@@ -58,7 +61,7 @@ body{
 
  
  #menuguia ol{
-    width: 100px;
+    width: 90px ;
      padding: 20px;
      background-color: aqua;
     mask-position: 0; 
