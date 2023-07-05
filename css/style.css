@@ -8,7 +8,7 @@
 #homemenu ul{
     list-style: none;
     padding:0;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(2, 2, 2);
 }
 
 #homemenu ul li {
@@ -17,20 +17,48 @@
 
 #homemenu ul li a  {
     
-    color: rgb(249, 249, 250); 
+    color: aqua; 
     padding: 40px ;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
 }
 #homemenu ul li a:hover {
-    background-color: rgb(42, 42, 218)
+    background-color: rgb(125, 125, 143)
+}
+body {
+    margin: 0;
+    background-color: rgb(233, 225, 225);
+}
+    
+body {
+    margin: 0;
+    background-color: rgb(20, 20, 20);
+    
+}
+#nav1 {
+    margin: 0;
+     padding: 20px ;
+     color: aliceblue;
+}
+#nav1 h1{
+    text-align: center;
+    color: aqua;
+    font-size: 80px;
+    
+}
+#nav1 h2 {
+    font-size: 40px;
+    text-align: start 100px;
+    color: aqua;
+    padding: 30px ;
+}
+#nav1 p {
+    text-align: start 0px;
+    font-size: 25px;
+    padding: 20px;
 }
 
-h1{
-    color: rgb(13, 14, 14);
-}
-
-nav {
-    margin : 20px;
+u {
+    padding: 30px auto;
 }
