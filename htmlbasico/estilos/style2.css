@@ -1,25 +1,26 @@
 html{
-    background-color: black;
+    background-color: rgb(8, 8, 8);
 }
 body{
+    
     background-color: aliceblue;
     margin: 0 auto;
-    padding: 0 auto;
+    
     
 }
 
 
-#basicomenu {
+#basicomenu ul{
     list-style: none;
     padding:0;
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(6, 7, 7); 
 }
 
-#basicomenu li {
+#basicomenu ul li {
     display:inline ;
 }
 
-#basicomenu li a  {
+#basicomenu ul li a  {
     
     color: rgb(249, 249, 250); 
     padding: 40px  ;
@@ -29,29 +30,67 @@ body{
 }
 #basicomenu ul li a:hover {
     background-color: rgb(42, 42, 218);
-
 }
 
-#menugia {
-    list-style: none;
-    padding:0;
-    background-color: rgb(5, 5, 5);
+
+ h1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 60px;
+    padding: 60px;
+ }
+
+ #iniciohtml {
+
+    font-size: 40px;
+    margin-inline-start:  50px;
+    
+ }
+
+ #txt1 {
+    font-size: 25px;
+    margin: 15px;
+    padding: 20px;
+ }
+#menuguia {
+    background-color: antiquewhite;
 }
 
-#menuguia ul li {
-    display:block ;
-    background-color: aqua;
+ 
+ #menuguia ol{
+    width: 100px;
+     padding: 20px;
+     background-color: aqua;
+    mask-position: 0; 
+ }
+
+#menuguia ol li {
+    display: flex;
+    
 }
 
-#menuguia ul li a  {
+#menuguia ol li a  {
     
     color: rgb(17, 17, 17); 
-    padding: 20px  ;
-    display: block;
+    padding: 10px  ;
+    display: inline-block;
     text-decoration: none;
     transition: background .4s;
 }
-#menuguia ul li a:hover {
-    background-color: rgb(223, 223, 238);
+
+#menuguia ol li a:hover {
+    background-color: rgb(185, 185, 211);
+    display: inline block;
 
 }
+ h3 {
+    text-align: center;
+    font-size: 35px;
+ }
+ p {
+    
+        font-size: 25px;
+        margin: 15px;
+        padding: 20px;
+
+ }
