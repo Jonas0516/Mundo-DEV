@@ -1,12 +1,12 @@
 * {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 auto;
     box-sizing: border-box;
     
 }
 body {
-   width: 1270px;
     margin: 0 auto;
+    padding: 0 auto;
     background-color: aliceblue;
     
     
